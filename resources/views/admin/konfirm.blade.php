@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Starter</title>
+  <title>SipiTC</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="{{asset('sipiTC-admin/bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
@@ -60,7 +60,7 @@ desired effect
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="home.html" class="logo">
+    <a href="sipitc_laravel/public/beranda" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>S</b>PTC</span>
       <!-- logo for regular state and mobile devices -->
@@ -99,12 +99,12 @@ desired effect
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="home.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-        <li><a href="list.html"><i class="fa fa-list"></i><span>List Inventaris</span></a></li>
-        <li><a href="add.html"><i class="fa fa-plus"></i><span>Tambah Inventaris</span></a></li>
-        <li><a href="history.html"><i class="fa fa-history"></i><span>History Peminjaman</span></a></li>
-        <li class="active"><a href="konfirm.html"><i class="fa fa-check"></i><span>Konfirmasi Peminjaman</span></a></li>
-        <li><a href="#"><i class="fa fa-sign-out"></i><span>Log Out</span></a></li>
+        <li><a href="/sipitc_laravel/public/beranda"><i class="fa fa-home"></i><span>Home</span></a></li>
+        <li><a href="/sipitc_laravel/public/list"><i class="fa fa-list"></i><span>List Inventaris</span></a></li>
+        <li><a href="/sipitc_laravel/public/add"><i class="fa fa-plus"></i><span>Tambah Inventaris</span></a></li>
+        <li><a href="/sipitc_laravel/public/history"><i class="fa fa-history"></i><span>History Peminjaman</span></a></li>
+        <li class="active"><a href="/sipitc_laravel/public/confirm"><i class="fa fa-check"></i><span>Konfirmasi Peminjaman</span></a></li>
+        <li><a href="/sipitc_laravel/public/"><i class="fa fa-sign-out"></i><span>Log Out</span></a></li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
