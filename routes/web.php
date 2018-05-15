@@ -59,3 +59,6 @@ Route::get('/tentang', function () {
     return view('peminjam.tentang');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
