@@ -39,10 +39,6 @@ Route::get('/confirm', function () {
     return view('admin.konfirm');
 });
 
-Route::get('/home', function () {
-    return view('peminjam.beranda1');
-});
-
 Route::get('/inventaris', function () {
     return view('peminjam.inventaris');
 });

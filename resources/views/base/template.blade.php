@@ -179,7 +179,7 @@
     </section>
 
 <!--sidebar-->
- @include('base.sidebar')
+ @include('base.footer')
 
     <!-- Portfolio Modals -->
 
@@ -199,7 +199,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="peminjaman.php">
+              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -223,7 +223,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="peminjaman.php">
+              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -247,7 +247,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="peminjaman.php">
+              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -271,7 +271,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="peminjaman.php">
+              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -295,7 +295,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="peminjaman.php">
+              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -316,9 +316,11 @@
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="{{asset('sipiTC-peminjam/img/portfolio/submarine.png')}}" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="">
                 <i class="fa fa-close"></i>
                 Close Project</a>
+              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
+                <i class="fa"></i>Pinjam</a>
             </div>
           </div>
         </div>
