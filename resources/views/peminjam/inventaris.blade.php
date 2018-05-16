@@ -1,5 +1,6 @@
 @extends('base.navbar')
 
+<?php $client = new GuzzleHttp\Client(['base_uri' => 'https://siri-tc.herokuapp.com']); ?>
     <!-- Contact Section -->
    <section class="portfolio" id="portfolio">
       <div class="container">       
@@ -7,7 +8,9 @@
         <br>
         <h4>Laboratorium:</h4>
           <select class="form-control select2" style="width: 10%;">
-                  <option selected="selected" value="inventaris">RPL</option>
+                  <?php $res = $client->request('GET', '/laboratory/RPL');
+                  echo $res->getStatusCode(); ?>
+                  <option selected="selected" value="">RPL</option>
                   <option value="ncc">NCC</option>
                   <option>KCV</option>
                   <option>LP</option>
