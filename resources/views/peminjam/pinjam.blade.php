@@ -9,50 +9,50 @@
             <form name="sentMessage" id="contactForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Nama Lengkap</label>
-                  <input class="form-control" id="name" type="text" placeholder="Nama Lengkap" required="required" data-validation-required-message="Masukkan nama lengkap anda.">
+                  <label>Nama Lengkap</label><h3>Nama Lengkap : </h3>
+                  <input class="form-control" id="name" type="text" placeholder="" required="required" data-validation-required-message="Masukkan nama lengkap anda.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>NRP</label>
-                  <input class="form-control" id="nrp" type="tel" placeholder="NRP" required="required" data-validation-required-message="Masukkan NRP anda.">
+                  <label>NRP</label><h3>NRP : </h3>
+                  <input class="form-control" id="nrp" type="tel" placeholder="" required="required" data-validation-required-message="Masukkan NRP anda.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Email</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Masukkan alamat email anda.">
+                  <label>Email</label><h3>Email : </h3>
+                  <input class="form-control" id="email" type="email" placeholder="" required="required" data-validation-required-message="Masukkan alamat email anda.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Nomor Telepon</label>
-                  <input class="form-control" id="telepon" type="tel" placeholder="Nomor Telepon" required="required" data-validation-required-message="Masukkan nomor telepon anda.">
+                  <label>Nomor Telepon</label><h3>Nomor Telepon : </h3>
+                  <input class="form-control" id="telepon" type="tel" placeholder="" required="required" data-validation-required-message="Masukkan nomor telepon anda.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
                 <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>RMK</label>
-                  <input class="form-control" id="rmk" type="tel" placeholder="RMK" required="required" data-validation-required-message="Masukkan RMK yang anda tekuni."></input>
+                  <label>RMK</label><h3>RMK : </h3>
+                  <input class="form-control" id="rmk" type="tel" placeholder="" required="required" data-validation-required-message="Masukkan RMK yang anda tekuni."></input>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
                 <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Dosen Pembimbing</label>
-                  <input class="form-control" id="dosen" type="tel" placeholder="Dosen Pembimbing" required="required" data-validation-required-message="Masukkan nama dosen pembimbing 1 atau 2 anda."></input>
+                  <label>Dosen Pembimbing</label><h3>Dosen Pembimbing : </h3>
+                  <input class="form-control" id="dosen" type="tel" placeholder="" required="required" data-validation-required-message="Masukkan nama dosen pembimbing 1 atau 2 anda."></input>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Inventory</label>
-                  <input class="form-control" id="message" type="tel" placeholder="Inventory" required="required" data-validation-required-message="Masukkan barang yang ingin anda pinjam."></input>
+                  <label>Inventaris</label><h3>Inventaris : </h3>
+                  <input class="form-control" id="message" type="tel" placeholder="" required="required" data-validation-required-message="Masukkan barang yang ingin anda pinjam."></input>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
