@@ -19,7 +19,7 @@
               </div>
               <!-- /.box-body -->
               <div class="form-group">
-                <button type="submit" class="btn btn-secondary"><a href="/sipitc_laravel/public/beranda">Submit</a></button>
+                <button type="submit" class="btn btn-secondary"><a href="{{ url('beranda') }}">Submit</a></button>
               </div>
             </form>
           </div>

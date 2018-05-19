@@ -60,7 +60,7 @@ desired effect
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="sipitc_laravel/public/beranda" class="logo">
+    <a href="{{ url('beranda') }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>S</b>PTC</span>
       <!-- logo for regular state and mobile devices -->
@@ -99,12 +99,12 @@ desired effect
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="/sipitc_laravel/public/beranda"><i class="fa fa-home"></i><span>Home</span></a></li>
-        <li class="active"><a href="/sipitc_laravel/public/list"><i class="fa fa-list"></i><span>List Inventaris</span></a></li>
-        <li><a href="/sipitc_laravel/public/add"><i class="fa fa-plus"></i><span>Tambah Inventaris</span></a></li>
-        <li><a href="/sipitc_laravel/public/history"><i class="fa fa-history"></i><span>History Peminjaman</span></a></li>
-        <li><a href="/sipitc_laravel/public/confirm"><i class="fa fa-check"></i><span>Konfirmasi Peminjaman</span></a></li>
-        <li><a href="/sipitc_laravel/public/"><i class="fa fa-sign-out"></i><span>Log Out</span></a></li>
+        <li><a href="{{ url('beranda') }}"><i class="fa fa-home"></i><span>Home</span></a></li>
+        <li class="active"><a href="{{ url('list') }}"><i class="fa fa-list"></i><span>List Inventaris</span></a></li>
+        <li><a href="{{ url('add') }}"><i class="fa fa-plus"></i><span>Tambah Inventaris</span></a></li>
+        <li><a href="{{ url('history') }}"><i class="fa fa-history"></i><span>History Peminjaman</span></a></li>
+        <li><a href="{{ url('confirm') }}"><i class="fa fa-check"></i><span>Konfirmasi Peminjaman</span></a></li>
+        <li><a href="{{ url('/') }}"><i class="fa fa-sign-out"></i><span>Log Out</span></a></li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -119,7 +119,7 @@ desired effect
         List Inventaris
       </h1>
       <ol class="breadcrumb">
-        <li><a href="home.html"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="{{ url('beranda') }}"><i class="fa fa-home"></i> Home</a></li>
         <li class="active">List Inventaris</li>
       </ol>
     </section>

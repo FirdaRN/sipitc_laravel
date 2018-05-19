@@ -199,7 +199,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
+              <a class="btn btn-primary btn-lg rounded-pill" href="{{ url('pinjam') }}">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -223,7 +223,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
+              <a class="btn btn-primary btn-lg rounded-pill" href="{{ url('pinjam') }}">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -247,7 +247,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
+              <a class="btn btn-primary btn-lg rounded-pill" href="{{ url('pinjam') }}">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -271,7 +271,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
+              <a class="btn btn-primary btn-lg rounded-pill" href="{{ url('pinjam') }}">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -295,7 +295,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
+              <a class="btn btn-primary btn-lg rounded-pill" href="{{ url('pinjam') }}">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
@@ -319,7 +319,7 @@
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-              <a class="btn btn-primary btn-lg rounded-pill" href="/sipitc_laravel/public/pinjam">
+              <a class="btn btn-primary btn-lg rounded-pill" href="{{ url('pinjam') }}">
                 <i class="fa"></i>Pinjam</a>
             </div>
           </div>
