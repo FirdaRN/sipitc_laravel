@@ -58,3 +58,11 @@ Route::get('/tentang', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('post','DataController@postRequest');
+Route::get('get','DataController@getRequest');
+
+Route::post('store', 'GuzzlePostController@store');
+Route::get('index', 'GuzzlePostController@index');
+
+Route::get('coba','GuzzleController@getRemoteData');
