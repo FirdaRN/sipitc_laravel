@@ -1,11 +1,13 @@
 @extends('base.navbar')
 
 <section>
-<hr class="star-dark mb-5">
-  <div class="col-md-4">
-      <h4 class="text-uppercase mb-4">Kontak</h4>
-      <p class="lead mb-0">SipiTC dikembangkan untuk mempermudah peminjaman inventaris laboratorium TC</p>
-    </div>
+  <br><br>
+<h2 class="text-center text-uppercase text-secondary mb-0">Kontak</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-8 ml-auto">
+            <p class="lead">Departemen Informatika <br> Fakultas Teknologi Informasi dan Komunikasi <br> Institut Teknologi Sepuluh Nopember</p>
+          </div>
 </section>
 
 @extends('base.footer')

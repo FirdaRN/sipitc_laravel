@@ -1,10 +1,16 @@
 @extends('base.navbar')
 <section>
-<hr class="star-dark mb-5">
-  <div class="col-md-4">
-      <h4 class="text-uppercase mb-4">Tentang SipiTC</h4>
-      <p class="lead mb-0">SipiTC dikembangkan untuk mempermudah peminjaman inventaris laboratorium TC</p>
-    </div>
+  <br><br>
+<h2 class="text-center text-uppercase text-secondary mb-0">Tentang</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">SipiTC merupakan sistem informasi peminjaman inventaris yang ada di laboratorium Departemen Informatika ITS</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">Tujuan dari SipiTC yaitu mempermudah alur peminjaman inventaris baik bagi peminjam dan admin laboratorium</p>
+          </div>
+        </div>
 </section>
 
 @extends('base.footer')
