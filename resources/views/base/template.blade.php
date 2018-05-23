@@ -42,8 +42,6 @@
       </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-
 <!--sidebar-->
  @include('base.footer')
 
