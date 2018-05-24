@@ -25,9 +25,9 @@
 Auth::routes();
 //Route::post('/login')->middleware('LevelMiddleware');
 
-Route::get('/', array('as' => 'admin', 'uses'=> 'LoginController@index'))->middleware('LevelMiddleware');
+//Route::get('/', array('as' => 'admin', 'uses'=> 'LoginController@index'))->middleware('LevelMiddleware');
 
-Route::group(['middleware' => ['web','auth','level:1']], function () {
+//Route::group(['middleware' => ['web','auth','level:1']], function () {
 //    Route::auth();
     Route::get('/', 'HomeController@admin');    
     Route::get('/list', function () {
@@ -46,9 +46,9 @@ Route::group(['middleware' => ['web','auth','level:1']], function () {
         return view('admin.konfirm');
     });
 
-});
+//});
 
-Route::group(['middleware' => ['web','auth','level:2']], function () {
+//Route::group(['middleware' => ['web','auth','level:2']], function () {
 //    Route::auth();
     Route::get('/', 'HomeController@mhs');
     Route::get('/inventaris', array(
@@ -73,4 +73,4 @@ Route::group(['middleware' => ['web','auth','level:2']], function () {
         return view('peminjam.beranda');
     });
 
-});
+//});
