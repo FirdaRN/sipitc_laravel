@@ -60,7 +60,7 @@ desired effect
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="{{ url('beranda') }}" class="logo">
+    <a href="{{ url('list') }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>S</b>PTC</span>
       <!-- logo for regular state and mobile devices -->
@@ -70,9 +70,7 @@ desired effect
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">
       <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span>
-      </a>
+      <a href="#"></a>
       <!-- Navbar Right Menu -->
     </nav>
   </header>
@@ -88,7 +86,7 @@ desired effect
           <i class="fa-user"></i>
         </div>
         <div class="pull-left info">
-          <p>Admin RPL</p>
+          <p>{{ Auth::user()->name }}</p>
           <!-- Status -->
         </div>
       </div>
@@ -99,12 +97,19 @@ desired effect
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="{{ url('beranda') }}"><i class="fa fa-home"></i><span>Home</span></a></li>
         <li><a href="{{ url('list') }}"><i class="fa fa-list"></i><span>List Inventaris</span></a></li>
         <li class="active"><a href="{{ url('add') }}"><i class="fa fa-plus"></i><span>Tambah Inventaris</span></a></li>
         <li><a href="{{ url('history') }}"><i class="fa fa-history"></i><span>History Peminjaman</span></a></li>
         <li><a href="{{ url('confirm') }}"><i class="fa fa-check"></i><span>Konfirmasi Peminjaman</span></a></li>
-        <li><a href="{{ url('/') }}"><i class="fa fa-sign-out"></i><span>Log Out</span></a></li>
+        <li><a class="dropdown-item" href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();"><i class="fa fa-sign-out"></i>
+                <span>{{ __('Logout') }}</span>
+              </a>
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                   @csrf
+              </form>
+        </li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -118,10 +123,6 @@ desired effect
       <h1>
         Tambah Inventaris
       </h1>
-      <ol class="breadcrumb">
-        <li><a href="{{ url('beranda') }}"><i class="fa fa-home"></i> Home</a></li>
-        <li class="active">Tambah Inventaris</li>
-      </ol>
     </section>
 
     <!-- Main content -->

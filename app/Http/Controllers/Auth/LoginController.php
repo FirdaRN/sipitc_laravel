@@ -25,7 +25,28 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+//    protected $redirectTo = '/';
+    public function index(Request $request){
+        $level = Auth::user()->level;
+        switch ($level) {
+            case '1':
+                return $this->dashboardLevel1();
+                break;
+            
+            default:
+                return $this->dashboardLevel2();
+                break;
+        }        
+    }
+
+    protected function dashboardLevel1(){
+        return view('admin.list');
+    }
+
+    protected function dashboardLevel2(){
+        return view('peminjam.beranda');
+    }
+
 
     /**
      * Create a new controller instance.
